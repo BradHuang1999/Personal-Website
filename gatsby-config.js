@@ -7,15 +7,17 @@ module.exports = {
     // Main Site Title
     title: `Brad Huang`,
     // Description that goes under your name in main bio
-    description: `Software engineer specialized in distributed systems`,
+    description: `Chinese Canadian. Software Engineer. uWaterloo Senior. Crypto. Dog Bro.`,
     // Optional: Twitter account handle
     author: `@braddo_huang`,
     // Optional: Github account URL
-    github: `https://github.com/BradHuang1999`,
+    github: `http://github.bradhuang.me/`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/brad-huang/`,
+    linkedin: `http://linkedin.bradhuang.me/`,
+    // Optional: Resume URL
+    resume: `http://resume.bradhuang.me/`,
     // Content of the About Me section
-    about: `Excited for everything technology has to offer. Proficient in distributed systems, big data analytics, data engineering, software architecture design, and fullstack web development.`,
+    about: `Excited for everything technology has to offer. I enjoy building large-scale distributed systems, versatile web applications, sustainable energy-related apps and algorithms, and random tools.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     // projects: [
     //   {
@@ -40,22 +42,27 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Observe Inc.',
-        description: 'Tempo-relational database feature implementation, large-scale query plan caching, optimization, and visualization',
+        name: 'Citadel - SWE Intern',
+        description: 'Something exciting. Coming soon.',
+        link: '',
+      },
+      {
+        name: 'Observe Inc. - SWE Intern',
+        description: 'Tempo-relational database feature implementation, large-scale query plan caching, optimization, and visualization.',
         link: 'https://www.observeinc.com/',
       },
       {
-        name: 'University of Waterloo',
-        description: 'Research in algorithms that predict hourly electricity usage and estimate optimized cost for solar panels for both commercial and residential users.',
+        name: 'University of Waterloo - Researcher',
+        description: 'Research in algorithms that predict hourly electricity usage and estimate optimized cost for solar panels for both commercial and residential users. Publication to ACM e-Energy conference pending.',
         link: 'https://cs.uwaterloo.ca/news/making-pv-storage-systems-more-financially-attractive-homeowners',
       },
       {
-        name: 'Snowflake',
-        description: 'Monitoring & alerting. Large-scale SQL query optimizers.',
+        name: 'Snowflake - SWE Intern',
+        description: 'Monitoring & alerting. Petabyte-scale SQL query optimizers.',
         link: 'https://docs.google.com/document/d/1Xn0I_i0EPsaoO1Islf8HYhsGpLTDghvbmfNSQLUKAv0/view',
       },
       {
-        name: 'Apple',
+        name: 'Apple - SWE Intern',
         description: 'Big data analytics on user engagement, feature success, and system stability metrics for Siri.',
         link: 'https://www.apple.com/siri/',
       },
@@ -65,7 +72,7 @@ module.exports = {
       {
         name: 'Distributed Systems & Databases',
         description:
-          'Snowflake, Docker, K8s, MongoDB, PostreSQL, MySQL.',
+          'Docker, K8s, Snowflake, Spark, MongoDB, PostreSQL, MySQL.',
       },
       {
         name: 'Statistics & Machine Learning',
